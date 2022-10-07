@@ -44,7 +44,37 @@ body {
 }
 
 /* muhammadzohid */
-
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+  margin-bottom: 80px;
+}
+.header__logo-img {
+  width: 35px;
+}
+.header__navbar-list {
+  display: flex;
+  align-items: center;
+}
+.header__navbar-item:active {
+  opacity: 0.5;
+}
+.header__navbar-item:not(:last-child) {
+  margin-right: 30px;
+}
+.header__navbar-link {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  color: #333333;
+}
+.header__link {
+  padding-bottom: 6px;
+  border-bottom: 1px solid #666;
+  color: #666;
+}
 /* muhammadzohid end */
 /* ------------------------- */
 /* muhiddin */
@@ -53,6 +83,68 @@ body {
 /* ---------------------- */
 
 /* ogiloy */
+.ogiloy{
+  padding-top: 68px;
+  padding-bottom: 140px;
+}
+.second {
+  display: flex;
+  align-items:flex-start;
+  justify-content: space-between;
+}
+.secondd__item {
+  max-width: 280px;
+}
+
+.second__title {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 150%;
+text-transform: uppercase;
+color: #222222;
+margin-bottom: 30px;
+}
+.second__text {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 160%;
+color: #333333;
+}
+.second__line {
+  width: 40px;
+height: 1px;
+border: 3px solid #EA625C;
+margin-right: 10px;
+}
+.second__link {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 160%;
+text-transform: uppercase;
+color: #EA625C;
+}
+.link-wrapper{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.dots-wrap{
+margin-top: 20px;
+display: flex;
+align-items: center;
+gap: 10px;
+}
+.dots{
+  width: 8px;
+  height: 8px;
+  background-color:#DDDDDD;;
+}
 /* ogiloy end */
 /* ---------------------- */
 /* muborak */
@@ -105,3 +197,51 @@ body {
 /* ------------------ */
 /* nurillo aka  */
 /* nurillo aka end */
+/* ------------------------ */
+/* footer */
+
+.site-footer {
+  background-image: url(../imgs/footer-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 240px 125px 239px 635px;
+}
+
+.footer-info {
+  width: 490px;
+  height: auto;
+}
+.footer-info__title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.footer-info__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  margin-bottom: 30px;
+  border-left: 4px solid #fff;
+  padding-left: 40px;
+}
+.footer-info__link {
+  width: 260px;
+  height: 51px;
+  display: inline-block;
+  padding: 12px 46px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #ea625c;
+  transition: background-color 0.4s ease;
+}
+.footer-info__link:hover {
+  color: #ea625c;
+  background-color: #fff;
+}
