@@ -56,7 +56,52 @@ body {
 /* ogiloy end */
 /* ---------------------- */
 /* muborak */
+.buy-now__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buy-now__text {
+  max-width: 490px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.buy-now__title {
+  max-width: 380px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+  color: #000000;
+}
+.buy-now__desc {
+  padding-left: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #777777;
+  max-width: 450px;
+  border-left: 3px solid #888888;
+}
+.buy-now__btn {
+  max-width: 270px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #EA625C;
+  padding: 12px 90px;
+  border: none;
+}
+.buy-now__img {
+  max-width: 400px;
+  height: 600px;
+}
 /* muborak end */
+
 /* ------------------ */
 /* nurillo aka  */
 /* nurillo aka end */
