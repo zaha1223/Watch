@@ -53,6 +53,68 @@ body {
 /* ---------------------- */
 
 /* ogiloy */
+.ogiloy{
+  padding-top: 68px;
+  padding-bottom: 140px;
+}
+.second {
+  display: flex;
+  align-items:flex-start;
+  justify-content: space-between;
+}
+.secondd__item {
+  max-width: 280px;
+}
+
+.second__title {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 150%;
+text-transform: uppercase;
+color: #222222;
+margin-bottom: 30px;
+}
+.second__text {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 160%;
+color: #333333;
+}
+.second__line {
+  width: 40px;
+height: 1px;
+border: 3px solid #EA625C;
+margin-right: 10px;
+}
+.second__link {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 160%;
+text-transform: uppercase;
+color: #EA625C;
+}
+.link-wrapper{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.dots-wrap{
+margin-top: 20px;
+display: flex;
+align-items: center;
+gap: 10px;
+}
+.dots{
+  width: 8px;
+  height: 8px;
+  background-color:#DDDDDD;;
+}
 /* ogiloy end */
 /* ---------------------- */
 /* muborak */
