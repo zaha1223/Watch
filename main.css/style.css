@@ -78,7 +78,61 @@ body {
 /* muhammadzohid end */
 /* ------------------------- */
 /* muhiddin */
-
+.hero {
+  background-image: url(../imgs/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position-x: 1150px;
+  background-position-y: 50px;
+  padding-top: 25px;
+  padding-bottom: 185px;
+}
+.hero-content {
+  align-items: center;
+}
+.hero-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.hero-text-destcription {
+  display: flex;
+  width: 490px;
+  margin-bottom: 30px;
+}
+.hero-line {
+  width: 10px;
+  height: 120px;
+  display: inline-block;
+  background-color: #888888;
+  margin-right: 40px;
+}
+.hero-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+.hero-link {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #ea625c;
+  padding: 12px 38.5px;
+  display: inline-block;
+  transition: 0.4s;
+}
+.hero-link:hover {
+  background-color: #ffffff;
+  color: #ea625c;
+}
 /* muhiddin end */
 /* ---------------------- */
 
