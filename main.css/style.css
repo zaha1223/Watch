@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"),
+    url("../fonts/roboto-v30-latin-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/roboto-v30-latin-700.woff2") format("woff2"),
+    url("../fonts/roboto-v30-latin-700.woff") format("woff");
+}
+
 *,
 *::after,
 *::before {
@@ -13,7 +29,7 @@ a {
   text-decoration: none;
 }
 img {
-  widows: 100%;
+  width: 100%;
   height: auto;
 }
 .container {
@@ -23,10 +39,8 @@ img {
   margin: 0 auto;
 }
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
 }
 
 /* muhammadzohid */
